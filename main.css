@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #E7E7E7;
+    background-color: #505e03;
     padding-top: 100px;
 }
 
@@ -21,16 +21,25 @@ header img {
     margin-right: 16px;
 }
 header h1 {
+    text-shadow: 0 0 10px #000000;
+    color: green;
     font-size: 40px;
-    font-weight: bold;
+    font-weight: bold 1px red;
+    font-family:  'Sedgwick Ave Display', cursive;;
+    padding-left: 20%;
 }
 .container {
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #003681, #5faab8);
+    box-shadow:  35px 35px 70px #0f0c0b,
+                 -35px -35px 70px #000000;
 }
 
 form {
+    margin-left: 15%;
     display: flex;
     max-width: 640px;
     width: 100%;
@@ -42,7 +51,7 @@ form {
 form input {
     font-size: 24px;
     background-color: #FFF;
-    border: none;
+    border-radius: 10px;
     border-bottom: 2px solid #000;
     padding: 8px;
 }
