@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #505e03;
+    background-image: url("./images/foto12.jpg");
     padding-top: 100px;
 }
 
@@ -22,9 +22,9 @@ header img {
 }
 header h1 {
     text-shadow: 0 0 10px #000000;
-    color: green;
+    color: rgb(175, 7, 161);
     font-size: 40px;
-    font-weight: bold 1px red;
+    font-weight: bold 1px rgb(255, 238, 5);
     font-family:  'Sedgwick Ave Display', cursive;;
     padding-left: 20%;
 }
@@ -49,15 +49,16 @@ form {
 }
 
 form input {
+    border-bottom: 2px solid rgb(175, 7, 161);
     font-size: 24px;
     background-color: #FFF;
     border-radius: 10px;
-    border-bottom: 2px solid #000;
     padding: 8px;
 }
 
 form button {
-    background-color: green;
+    background-color: rgb(173, 0, 144);
+    border-radius: 10px;
     color:aliceblue;
     font-size: 24px;
     font-weight: bold;
@@ -71,7 +72,7 @@ table {
 }
 
 table th {
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid rgb(175, 7, 161);
     padding: 16px;
     font-size: 24px;
     font-weight: bold;
